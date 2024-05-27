@@ -1,0 +1,86 @@
+body{
+  font-family: Noto Sans, sans-serif;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #3B3B3B;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #919191;
+}
+
+
+span{
+  display: block;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-wrap {
+  max-width: 1296px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card img{
+  border-radius: 8px;
+}
+
+.card-content{
+  height: 100%;
+  padding: 16px 0 0 16px;
+}
+
+.content-wrap h3{
+  padding-bottom: 8px;
+}
+
+.content-wrap p{
+  padding-bottom: 24px;
+}
+
+.tags-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+
+.tag {
+  padding: 4px 12px 4px 12px;
+  gap: 10px;
+  border-radius: 50px;
+  color:#3B3B3B;
+  background-color: #F1F1F1;
+}
+
+
+/* RWD*/
+
+@media (max-width:1300px) {
+  .portfolio-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  
+}
