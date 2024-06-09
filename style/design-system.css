@@ -1,0 +1,208 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  font-size: 16px;
+  color: #3b3b3b;
+}
+
+/*Font*/
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  /*optional
+  letter-spacing: 0.12em;*/
+  white-space: nowrap;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #3b3b3b;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  /*optional
+  letter-spacing: 0.12em;*/
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.fs-2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.fs-3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.fs-5-bold {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.fs-5-regular {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.fs-6-bold {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.fs-6-regular {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.12em;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .fs-2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .fs-3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+/*Color*/
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-g-100 {
+  color: #fafafa;
+}
+
+.text-g-200 {
+  color: #f1f1f1;
+}
+
+.text-g-300 {
+  color: #e9e9e9;
+}
+
+.text-g-400 {
+  color: #c1c1c1;
+}
+
+.text-g-500 {
+  color: #919191;
+}
+
+.text-g-600 {
+  color: #5b5b5b;
+}
+
+.text-g-700 {
+  color: #3b3b3b;
+}
+
+.text-g-800 {
+  color: #1e1e1e;
+}
+
+.text-black {
+  color: #000;
+}
+
+/* highlight words */
+
+.highlight-words {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-g-100 {
+  background-color: #fafafa;
+}
+
+.bg-g-200 {
+  background-color: #f1f1f1;
+}
+
+.bg-g-300 {
+  background-color: #e9e9e9;
+}
+
+.bg-g-400 {
+  background-color: #c1c1c1;
+}
+
+.bg-g-500 {
+  background-color: #919191;
+}
+
+.bg-g-600 {
+  background-color: #5b5b5b;
+}
+
+.bg-g-700 {
+  background-color: #3b3b3b;
+}
+
+.bg-g-800 {
+  background-color: #1e1e1e;
+}
+
+.bg-black {
+  background-color: #000;
+}
